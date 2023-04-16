@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <link rel ="stylesheet" href="style.css">
+        <script src="script.js"></script>
+        <title>Challenge 1</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="logo">
+                <img class="vector" src="/img/Vector.png">
+            </div>
+            <div class="left">
+                <input class="text-input" id ="inputTexto" type="text" placeholder="Ingrese el texto aquí">
+            </div>
+            <div class="right">
+                <img src="/img/muñeco.png" id="img1">
+                <p id="texto">Ningún mensaje fue encontrado</p>
+                <p id="texto2">Ingresa el texto que desees encriptar o desencriptar.</p>
+                <button id="copiar" type="button" name="button" onclick="copiar()">Copiar</button>
+            </div>
+            <div class="buttons">
+                <p id="advertencia">! Solo letras minúsculas y sin acentos</p>
+                <button type="buton" id="btn-encriptar" onclick="mostrarEncriptacion()">Encriptar</button>
+                <button type="buton" id="btn-desencriptar" onclick="mostrarDesencriptacion()">Desencriptar</button>
+            </div>
+        </div>
+    </body>
+</html>
